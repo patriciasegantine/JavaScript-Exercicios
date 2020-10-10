@@ -38,3 +38,29 @@ footer {
   text-align: center;
   font-style: italic;
 }
+
+
+/* Responsividade */
+
+@media only screen and (max-width: 787px) {
+  section {
+    font-size: 1.rem;
+    width: 300px;
+  }
+
+  div {
+    font-size: 1.1rem;
+    
+}
+  div#msg-dia {
+    font-size: 2rem;
+    }
+
+    #img {
+      width: 80%;
+    }
+
+    footer {
+      font-size: 0.7rem;
+    }
+}
